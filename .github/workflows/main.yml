@@ -8,8 +8,8 @@ on:
         - main
         - master
         - develop
-  name: "Build & Release"
-  jobs:
+name: "Build & Release"
+jobs:
     build:
       name: Build & Release
       runs-on: windows-latest
